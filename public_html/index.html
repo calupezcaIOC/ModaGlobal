@@ -8,6 +8,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>ModaGlobal</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .galeria {
+                display: flex;
+                gap: 14px;
+            }
+            
+            .galeria-item {
+                height: 200px;
+            }
+        </style>
     </head>
     <body>
         <h1>Benvingut a ModaGlobal</h1>
@@ -20,8 +30,28 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <li>Jaquetes</li>
             </ul>
         </div>
+        
+        <div id="galeria">
+            <h2>Galeria de productes</h2>
+            <div class="galeria">
+                <span>
+                    <img src="https://www.moixa.cat/wp-content/uploads/pinces-negre-mijons-ratlles-moixa-3.webp" alt="Mitjons a ratlles" class="galeria-item">
+                    <p>Mitjons a ratlles</p>
+                </span>
+                <span>
+                    <img src="https://www.disfracessimon.com/cdn/shop/files/23583.jpg?v=1751401444" alt="Barret de copa" class="galeria-item">
+                    <p>Barret de copa</p>
+                </span>
+                <span>
+                    <img src="https://www.parfois.com/on/demandware.static/-/Sites-parfois-master-catalog/default/dwfba17974/images/hi-res/252/64/241251_GN_5y.jpg" alt="Jaqueta de llana" class="galeria-item">
+                    <p>Jaqueta de llana</p>
+                </span>
+            </div>
+        </div>
         <footer>
             <p>Carolina López Casanova</p>
         </footer>
+        
+        <script src="galeria.js"></script>
     </body>
 </html>
